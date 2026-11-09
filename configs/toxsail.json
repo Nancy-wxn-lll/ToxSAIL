@@ -1,0 +1,33 @@
+{
+  "datasets": [
+    "hERG",
+    "AMES",
+    "DILI",
+    "LD50",
+    "Tox21",
+    "ClinTox",
+    "Skin-Reaction",
+    "Carcinogens"
+  ],
+  "models": [
+    "xgb",
+    "lgbm",
+    "extra_trees",
+    "toxsail"
+  ],
+  "split": "scaffold",
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46
+  ],
+  "feature_set": "ecfp_desc_alerts_gps",
+  "alert_set": "expanded",
+  "fragment_vocab_size": 256,
+  "min_fragment_count": 2,
+  "n_estimators": 400,
+  "target_normalize": "auto",
+  "fusion": "concat"
+}
