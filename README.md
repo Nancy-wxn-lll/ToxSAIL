@@ -1,6 +1,6 @@
 # ToxSAIL
 
-**ToxSAIL: A Structural Alert and Fragment-Guided Hybrid Framework for Drug Toxicity Prediction**
+**ToxSAIL: Structural Alert-Informed Learning for Interpretable Molecular Toxicity Prediction**
 
 This repository contains the experiment code for ToxSAIL, a toxicity-focused molecular prediction workflow. The final model uses SMILES-derived structural features and a fixed late-ensemble predictor rather than a neural sequence model.
 
